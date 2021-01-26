@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  aka:
+    image: "reezpatel/aka:0.1"
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./docker-data:/data"
+    environment:
+      - "DATA_PATH=/data"
+      - "AUTH_TOKEN=<openssl rand -hex 8>"

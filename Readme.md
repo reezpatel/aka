@@ -80,3 +80,9 @@ curl --request DELETE \
 #### Development
 
 AKA is an dead simple url shortener, it is written in Go and doesn't have any dependencies. To contribute to development clone the repo and run `go run .`
+
+#### Changelog
+
+| Date   | Version | Changelog       |
+| ------ | ------- | --------------- |
+| 26/JAN | 0.1     | Initial Release |
